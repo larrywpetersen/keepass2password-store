@@ -6,7 +6,7 @@ KeePass into a `password-store database`
 It will create a password-store database where the first line is the
 password.  The second line is `Username:`  username.  The third line
 is `URL:` the.url.  Then a line with `Notes:`, followed by the notes
-field from KeePass.
+field from KeePass.https://www.passwordstore.org/
 
 # Assumptions
 
@@ -26,3 +26,9 @@ One argument is required and that is the *csv* file to convert.  For example,
 # Dependencies
 
 password-store2keepass requires `os`, `sys`, `csv`, and `gnupg`.
+
+# Links
+
+[Password-store site](https://www.passwordstore.org/)
+
+[KeePass site](https://keepass.info/)
